@@ -152,7 +152,6 @@ def all_place_ranking(df, tabint, tabname, color='#8c00f9'):
             idx += 1
             text += f'{idx}위 . {word} / '
         st.caption(text)
-        # select = pills("Top3",Top3_list, ["1️⃣", "2️⃣", "3️⃣"])
         st.bar_chart(sido_df_sum, x='관광지', y='총계', color=color)
 
 

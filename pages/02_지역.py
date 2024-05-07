@@ -102,7 +102,7 @@ with tab1:
 
 
 with tab2:
-    tab2_1, tab2_2 = st.tabs(['장소별분석', '리뷰분석'])
+    tab2_1, tab2_2 = st.tabs(['역사명소 소개', '리뷰분석'])
 
 
 

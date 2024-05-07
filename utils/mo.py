@@ -15,6 +15,7 @@ import requests
 from bs4 import BeautifulSoup
 from matplotlib import font_manager, rc
 import platform
+import re
 
 # font_path = 'C:/Windows/Fonts/malgun.ttf'
 # font_name2 = font_manager.FontProperties(fname=font_path).get_name()
@@ -412,7 +413,8 @@ def tab2_place(url, chartdf, place, tabname):
                     st.write('**이미지 없음**')
                 st.write('이름 : ', title)
                 st.write('주소 : ', addr)
-                st.write(overview)
+                over_text = re.sub(r'<.*?>', '', overview)
+                st.write(over_text)
         except:
             st.caption('장소에 대한 정보가 없습니다😥')
 

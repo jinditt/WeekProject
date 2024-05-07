@@ -26,7 +26,7 @@ with tab1:
         all_location(map, loc_df, select)
 
 
-    st.markdown('선택한 유형별 전국 역사명소 갯수')
+    st.markdown('선택한 유형별 전국 역사명소 개수')
 
 
     @st.cache_data

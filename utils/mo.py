@@ -38,9 +38,10 @@ def wordcloud(data, count):
     wc = WordCloud(font_path=font_name, max_words=count, width=800, height=400,
                    background_color='white').generate_from_frequencies(word_freq)
 
+    fig, ax = plt.subplots(figsize=(12, 8))
     plt.axis('off')
-    plt.imshow(wc, interpolation='bilinear')
-    plt.show()
+    ax.imshow(wc, interpolation='bilinear')
+    st.pyplot(fig)
 
 
 def year_chart(df, place):
@@ -188,8 +189,7 @@ def tab2_review(select, data, low_data, high_data, tabname):
             try:
                 all_data = data.loc[select]
                 all20_df = all_data.rename(columns={'Unnamed: 1': '단어 빈도순', 'freq': '합계'}).iloc[:20]
-                wc = wordcloud(all_data, 50)
-                st.pyplot(wc)
+                wordcloud(all_data, 50)
                 with co12_2:
                     st.markdown('단어 순위')
                     try:
@@ -204,16 +204,15 @@ def tab2_review(select, data, low_data, high_data, tabname):
             st.markdown('**낮은평점 리뷰:confused:**')
             try:
                 low_df = low_data.loc[select]
-                low_wc = wordcloud(low_df, 50)
-                st.pyplot(low_wc)
+                wordcloud(low_df, 50)
+
             except:
                 st.caption('낮은평점이 없습니다😀')
         with co12_4:
             st.markdown('**높은평점 리뷰:blush:**')
             try:
                 high_df = high_data.loc[select]
-                high_wc = wordcloud(high_df, 50)
-                st.pyplot(high_wc)
+                wordcloud(high_df, 50)
             except:
                 st.caption('높은평점이 없습니다😥')
 

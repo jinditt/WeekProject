@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ee2fe9d-5d47-44ea-86b8-6d0835f1eb8b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/weekProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/TourAPI_id_url.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/강원특별자치도.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/강원특별자치도_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/강원특별자치도_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/경기도.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/경기도_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/경기도_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/경상남도.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/경상남도_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/경상남도_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/경상북도.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/경상북도_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/경상북도_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/광주광역시.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/광주광역시_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/광주광역시_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/대구광역시.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/대구광역시_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/대구광역시_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/서울특별시.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/서울특별시_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/서울특별시_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/세종특별자치시.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/세종특별자치시_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/세종특별자치시_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/울산광역시.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/울산광역시_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/울산광역시_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/인천광역시.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/인천광역시_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/인천광역시_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/전라남도.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/전라남도_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/전라남도_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/전라북도.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/전라북도_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/전라북도_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/제주특별자치도.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/제주특별자치도_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/제주특별자치도_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/충청남도.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/충청남도_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/충청남도_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/충청북도.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/충청북도_high.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/review/충청북도_low.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/강원특별자치도_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/경기도_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/경상남도_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/경상북도_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/광주광역시_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/대구광역시_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/서울특별시_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/세종특별자치시_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/울산광역시_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/인천광역시_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/전국_시도_별점순위.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/전국_장소_별점순위.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/전국관광지위치정보.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/전라남도_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/전라북도_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/제주특별자치도_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/충청남도_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/star/충청북도_별점.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/그림1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/그림2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/전국관광지위치정보.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/주요관광지점입장객(전국).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/주요관광지점입장객(전국)_Multiselect.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/01_전국별.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/02_지역별.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/mo.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2fknaAN24VLqKE3VwSAA9cwKmqR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/workspace_07/weekProject/data&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace_07\weekProject\data" />
+      <recent name="F:\workspace_07\weekProject\data\충청남도" />
+      <recent name="F:\workspace_07\weekProject\data\충북" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace_07\weekProject\data" />
+      <recent name="F:\workspace_07\weekProject" />
+      <recent name="F:\workspace_07\weekProject\pages" />
+      <recent name="F:\workspace_07\weekProject\data\star" />
+      <recent name="F:\workspace_07\weekProject\data\review" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ee2fe9d-5d47-44ea-86b8-6d0835f1eb8b" name="Changes" comment="" />
+      <created>1714354003112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714354003112</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

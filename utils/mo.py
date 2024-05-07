@@ -39,9 +39,9 @@ def wordcloud(data, count):
                    background_color='white').generate_from_frequencies(word_freq)
 
     fig, ax = plt.subplots(figsize=(12, 8))
-    plt.axis('off')
     ax.imshow(wc, interpolation='bilinear')
-    st.pyplot(fig)
+    plt.axis('off')
+    st.pyplot(plt.gcf())
 
 
 def year_chart(df, place):

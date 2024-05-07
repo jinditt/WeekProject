@@ -14,16 +14,28 @@ from streamlit_pills import pills
 import requests
 from bs4 import BeautifulSoup
 from matplotlib import font_manager, rc
+import platform
 
-font_path = 'C:/Windows/Fonts/malgun.ttf'
-font_name = font_manager.FontProperties(fname=font_path).get_name()
-rc('font', family=font_name)
+# font_path = 'C:/Windows/Fonts/malgun.ttf'
+# font_name2 = font_manager.FontProperties(fname=font_path).get_name()
+# font_name = 'NanumGothic.ttf'
+# rc('font', family=font_name)
+
+if platform.system() == 'Darwin':  # 맥OS
+    rc('font', family='AppleGothic')
+elif platform.system() == 'Windows':  # 윈도우
+    path = "c:/Windows/Fonts/malgun.ttf"
+    font_name = font_manager.FontProperties(fname=path).get_name()
+    rc('font', family=font_name)
+else:
+    font_name = 'NanumGothic.ttf'
+    rc('font', family=font_name)
 
 
 def wordcloud(data, count):
     word_freq = dict(zip(data['Unnamed: 1'], data['freq']))
     # word_freq = data['freq'].to_dict()
-    wc = WordCloud(font_path=font_path, max_words=count, width=800, height=400,
+    wc = WordCloud(font_path='C:/Windows/Fonts/malgun.ttf', max_words=count, width=800, height=400,
                    background_color='white').generate_from_frequencies(word_freq)
 
     plt.axis('off')
@@ -45,7 +57,7 @@ def tab1_select(categories):
         '확인하고 싶은 유형을 고르세요👇',
         categories, categories)
     name_str = ', '.join(select)
-    st.write('You selected:', name_str)
+    # st.write('You selected:', name_str)
     return select
 
 
@@ -153,7 +165,7 @@ def visit_sido(df, tabname, tabint):
             idx += 1
             text += f'{idx}위 . {word} / '
         st.caption(text)
-        st.bar_chart(visited_people[tabname], color='#f5eae1')
+        st.bar_chart(visited_people[tabname][:10], color='#f5eae1')
 
 
 def star_ranking(df, color='#FFBC00'):

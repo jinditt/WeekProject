@@ -3,7 +3,7 @@ import time
 from utils.mo import *
 
 
-tab1, tab2 = st.tabs(['지도','통계'])
+tab1, tab2 = st.tabs(['지도','Top10 순위🏆'])
 
 
 with tab1:
@@ -26,7 +26,7 @@ with tab1:
         all_location(map, loc_df, select)
 
 
-    st.markdown('전체 역사지 갯수')
+    st.markdown('선택한 유형별 전국 역사명소 갯수')
 
 
     @st.cache_data
@@ -44,7 +44,8 @@ with tab1:
 
 
 with tab2:
-    st.subheader('Top10 순위🏆')
+    # st.subheader('Top10 순위🏆')
+    st.write()
     col1, col2 = st.columns(2)
     with col1:
         st.markdown('📌평균 방문율이 높은 지역')

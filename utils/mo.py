@@ -24,9 +24,9 @@ import platform
 if platform.system() == 'Darwin':  # 맥OS
     rc('font', family='AppleGothic')
 elif platform.system() == 'Windows':  # 윈도우
-    path = "c:/Windows/Fonts/malgun.ttf"
-    font_name = font_manager.FontProperties(fname=path).get_name()
-    rc('font', family=font_name)
+    font_name = "c:/Windows/Fonts/malgun.ttf"
+    path = font_manager.FontProperties(fname=font_name).get_name()
+    rc('font', family=path)
 else:
     font_name = 'NanumGothic.ttf'
     rc('font', family=font_name)
@@ -35,7 +35,7 @@ else:
 def wordcloud(data, count):
     word_freq = dict(zip(data['Unnamed: 1'], data['freq']))
     # word_freq = data['freq'].to_dict()
-    wc = WordCloud(font_path='C:/Windows/Fonts/malgun.ttf', max_words=count, width=800, height=400,
+    wc = WordCloud(font_path=font_name, max_words=count, width=800, height=400,
                    background_color='white').generate_from_frequencies(word_freq)
 
     plt.axis('off')

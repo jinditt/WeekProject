@@ -45,7 +45,9 @@ with tab1:
 
 with tab2:
     # st.subheader('Top10 순위🏆')
-    st.write()
+    with st.container(border=True):
+        st.caption('''**주요관광지점입장객 : 2018-2023년 기준으로 추출**  
+                   **구글맵 리뷰 : 1000개 리뷰 추출** ''')
     col1, col2 = st.columns(2)
     with col1:
         st.markdown('📌평균 방문율이 높은 지역')

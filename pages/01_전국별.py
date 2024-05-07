@@ -57,7 +57,7 @@ with tab2:
         visit_sido(df,'외국인', tab3)
 
     with col2:
-        st.markdown('📌장소별 방문객수')
+        st.markdown('📌방문객수가 많은 장소')
         tab4, tab5, tab6 = st.tabs(['합계', '내국인', '외국인'])
         # 전국 방문객 장소별 ( 합계, 내국인, 외국인)
         all_place_ranking(df, tab4, '합계', color='#E5C1C5')
@@ -67,7 +67,7 @@ with tab2:
     col3, col4 = st.columns(2)
 
     with col3:
-        st.markdown('📌별점이 높은 지역별')
+        st.markdown('📌별점 평균이 높은 지역')
         @st.cache_data
         def star_sido(file_path):
             sido_df = pd.read_csv(file_path)
@@ -77,7 +77,7 @@ with tab2:
         sido_df = star_sido(f'data/star/전국_시도_별점순위.csv')
         star_ranking(sido_df.iloc[:10],color='#C3E2DD')
     with col4:
-        st.markdown('📌별점 높은 장소')
+        st.markdown('📌별점 평균이 높은 장소')
 
         @st.cache_data
         def star_data(file_path):

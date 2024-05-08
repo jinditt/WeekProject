@@ -3,7 +3,7 @@ import time
 from utils.mo import *
 
 
-tab1, tab2 = st.tabs(['지도','Top10🏆'])
+tab1, tab2 = st.tabs(['지도 검색','Top10🏆'])
 
 
 with tab1:

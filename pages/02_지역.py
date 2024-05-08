@@ -90,6 +90,8 @@ with tab1:
 
     with col4:
         st.markdown('**📍 별점 평균이 높은 역사적 명소**')
+        st.write('')
+        st.write('')
 
 
         @st.cache_data

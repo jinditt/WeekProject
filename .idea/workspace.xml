@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee2fe9d-5d47-44ea-86b8-6d0835f1eb8b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Font/NanumGothic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Font/NanumGothicBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Font/NanumGothicExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Font/NanumGothicLight.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/01_전국.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/01_전국.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/02_지역.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/02_지역.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/mo.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/workspace_07/weekProject/data&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "F:/workspace_07/weekProject/Font",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace_07\weekProject\Font" />
       <recent name="F:\workspace_07\weekProject\data" />
       <recent name="F:\workspace_07\weekProject\data\충청남도" />
       <recent name="F:\workspace_07\weekProject\data\충북" />

@@ -29,14 +29,14 @@ elif platform.system() == 'Windows':  # 윈도우
     path = font_manager.FontProperties(fname=font_name).get_name()
     rc('font', family=path)
 else:
-    font_name = 'NanumGothic.ttf'
+    font_name = 'Font/NanumGothic.ttf'
     rc('font', family=font_name)
 
 
 def wordcloud(data, count):
     word_freq = dict(zip(data['Unnamed: 1'], data['freq']))
     # word_freq = data['freq'].to_dict()
-    wc = WordCloud(font_path=font_name, max_words=count, width=800, height=400,
+    wc = WordCloud(font_path='Font/NanumGothic.ttf', max_words=count, width=800, height=400,
                    background_color='white').generate_from_frequencies(word_freq)
 
     fig, ax = plt.subplots(figsize=(12, 8))

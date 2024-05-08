@@ -49,7 +49,7 @@ with tab2:
         st.caption('2018~2023년의 입장객 수와 구글지도 리뷰의 별점 평균을 활용하여 지역·역사적 명소별로 순위를 산정')
     col1, col2 = st.columns(2)
     with col1:
-        st.markdown('📌평균 방문율이 높은 지역')
+        st.markdown('📌평균 방문객 수가 많은 지역')
         st.caption('각 역사적 명소의 6년간 총 방문객을 합산한 후, 소속된 시·도·광역시별로 그룹화하여 구한 평균의 순위')
         tab1, tab2, tab3 = st.tabs(['합계', '내국인', '외국인'])
 

@@ -185,6 +185,7 @@ def tab2_review(select, data, low_data, high_data, tabname):
         co12_1, co12_2 = st.columns([2, 1])
         with co12_1:
             st.subheader('**전체 리뷰 Wordcloud📝**')
+            st.caption('리뷰에서 가장 많이 사용된 50개 단어')
             st.set_option('deprecation.showPyplotGlobalUse', False)
             try:
                 all_data = data.loc[select]
@@ -193,7 +194,7 @@ def tab2_review(select, data, low_data, high_data, tabname):
                 with co12_2:
                     st.markdown('단어 순위')
                     try:
-                        st.dataframe(all20_df, width=250, height=280, hide_index=True)
+                        st.dataframe(all20_df, width=250, height=320, hide_index=True)
                     except:
                         pass
             except:
@@ -201,20 +202,22 @@ def tab2_review(select, data, low_data, high_data, tabname):
         st.write('---')
         co12_3, co12_4 = st.columns(2)
         with co12_3:
-            st.markdown('**낮은평점 리뷰:confused:**')
+            st.markdown('**낮은 별점 리뷰:confused:**')
+            st.caption('평점이 1-2점인 리뷰 데이터에서 공통된 50개의 단어를 제외하고 가장 많이 사용된 단어')
             try:
                 low_df = low_data.loc[select]
                 wordcloud(low_df, 50)
 
             except:
-                st.caption('낮은평점이 없습니다😀')
+                st.caption('낮은 별점이 없습니다😀')
         with co12_4:
-            st.markdown('**높은평점 리뷰:blush:**')
+            st.markdown('**높은 별점 리뷰:blush:**')
+            st.caption('평점이 4-5점인 리뷰 데이터에서 공통된 50개의 단어를 제외하고 가장 많이 사용된 단어')
             try:
                 high_df = high_data.loc[select]
                 wordcloud(high_df, 50)
             except:
-                st.caption('높은평점이 없습니다😥')
+                st.caption('높은 별점이 없습니다😥')
 
 
 
